@@ -158,6 +158,11 @@ export default function AdminOverview() {
           className="bg-white dark:bg-gray-800 cursor-pointer hover:shadow-md transition-shadow"
           onClick={() => handleNavigate('analytics')}
         >
+            <div className="flex items-center gap-4">
+              <div className="bg-indigo-100 dark:bg-indigo-900/20 p-3 rounded-full">
+                <BarChart className="h-6 w-6 text-indigo-600 dark:text-indigo-400" />
+              </div>
+              <div>
         </Card>
       </div>
     </div>
